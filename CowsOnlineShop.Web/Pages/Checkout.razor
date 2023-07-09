@@ -1,0 +1,81 @@
+﻿@page "/Checkout"
+@inherits CheckoutBase
+
+<h3 class="mb-5">Checkout</h3>
+<div class="row">
+    @if (ShoppingCartItems == null)
+    {
+        <DisplaySpinner />
+    }
+    else
+    {
+        <div class="col-md-9">
+            <h4 class="mb-2">Payment Summary</h4>
+            @if (ShoppingCartItems.Count() > 0)
+            {
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Price * Qty</th>
+                            <th>Discount</th>
+                            <th>Dto Applied</th>
+                            <th>After Dto</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in ShoppingCartItems)
+                        {
+                            <tr>
+                                <td>@item.ProductName</td>
+                                <td>@item.Price.ToString("C") x @item.Qty</td>
+                                <td>@(item.Qty > 5 ? "5%" : "0%")</td>
+                                <td>@(item.Qty > 5 ? GetCalcDtoByItem(item, ItemCheckDto.FivePercent).ToString("C") : "$0")</td>
+                                <td>@(item.Qty > 5 ? GetCalcDtoByItem(item, ItemCheckDto.SubTotalFivePercent).ToString("C") : item.TotalPrice.ToString("C"))</td>
+                            </tr>
+                        }
+
+                        <tr>
+                            <td><b>SubTotal</b></td>
+                            <td></td>
+                            <td>@(TotalQty > 10 ? "3%" : "0%")</td>
+                            <td>@(TotalQty > 10 ? (PaymentAmount * 0.03m).ToString("C") : "$0")</td>
+                            <td><b>@(TotalQty > 10 ? (PaymentAmount * 0.97m).ToString("C") : PaymentAmount.ToString("C"))</b></td>
+                        </tr>
+                        <tr>
+                            <td><b>Freight</b></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>@(TotalQty > 20 ? "Free" : "$1000.00")</td>
+                        </tr>
+                        <tr>
+                            <td><b>Total</b></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><b>@CalcGranTotal().ToString("C")</b></td>
+                        </tr>
+                    </tbody>
+                </table>
+            }
+            else
+            {
+                <p>You currently have no items in your shopping cart</p>
+            }
+        </div>
+
+
+        <div class="col-md-3" style="display:@DisplayButtons">
+            <h4 class="mb-4">Payment Method</h4>
+            <div class="d-grid gap-2">
+                <a href="Checkout" class="btn btn-success">
+                    <Icon Name="IconName.Paypal" />&nbsp; Paypal
+                </a>
+                <a href="Checkout" class="btn btn-success">
+                    <Icon Name="IconName.CreditCard" />&nbsp; Credit or Debit Card
+                </a>
+            </div>
+        </div>
+    }
+</div>

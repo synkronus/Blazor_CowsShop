@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "HxHLYhtBv5/ijiAo7jVwIY3XwxRSS9JfYyCHsIW/qDaq34lo9VKlIKVgcmTeluYj2DY5MvWPS4CH+I9/q7VxKw==",
+  "success": true,
+  "projectFilePath": "/Users/user/Desktop/Projects/Job_Applications/ShopStocks/ShopOnlineSolution/CowsOnlineShop.Models/CowsOnlineShop.Models.csproj",
+  "expectedPackageFiles": [
+    "/Users/user/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.19/microsoft.aspnetcore.app.ref.6.0.19.nupkg.sha512",
+    "/Users/user/.nuget/packages/microsoft.netcore.app.ref/6.0.19/microsoft.netcore.app.ref.6.0.19.nupkg.sha512"
+  ],
+  "logs": []
+}

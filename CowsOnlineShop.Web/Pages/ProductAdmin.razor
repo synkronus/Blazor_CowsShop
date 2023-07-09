@@ -1,0 +1,51 @@
+﻿@page "/AdminPortal"
+@inherits ProductAdminBase
+
+<ConfirmDialog @ref="dialog" />
+<Modal @ref="modal" Size="ModalSize.Large" IsVerticallyCentered="true" />
+<Toasts class="p-3" AutoHide="true" Delay="4000" Placement="ToastsPlacement.BottomCenter" />
+
+<div class="row mt-4">
+    <div class="col col-8">
+        Product Admin
+    </div>
+    <div class="col col-4">
+        <Button Color="ButtonColor.Primary" @onclick="() => ShowFormComponent(FormActionTp.New)" Size="Size.Small"><Icon Name="IconName.Plus" /></Button>
+        <Button Color="ButtonColor.Warning" @onclick="() => ShowFormComponent(FormActionTp.Edit)" Disabled="@disableButton" Size="Size.Small"><Icon Name="IconName.Pencil" /></Button>
+        <Button Color="ButtonColor.Danger" @onclick="() => DeleteItemAsync()" Disabled="@disableButton" Size="Size.Small"><Icon Name="IconName.Trash" /></Button>
+    </div>
+</div>
+<div class="row mt-2">
+    <div class="col">
+        <Grid TItem="ProductDto" class="table table-hover table-bordered table-striped" DataProvider="ProductDataProvider"
+              AllowFiltering="true" AllowPaging="true" PageSize="10" AllowSorting="true" Responsive="true"
+              PageSizeSelectorItems="new int[] { 10, 20, 50 }" PaginationItemsTextFormat="{0} - {1} of {2} items"
+              AllowSelection="true" SelectedItemsChanged="OnSelectedItemsChanged" @ref="gridTbl">
+            <GridColumn TItem="ProductDto" HeaderText="Id" PropertyName="Id" Sortable="true" Filterable="false"
+                        IsDefaultSortColumn="true" SortDirection="SortDirection.Descending" SortKeySelector="item => item.Id">
+                @context.Id
+            </GridColumn>
+            <GridColumn TItem="ProductDto" HeaderText="Name" PropertyName="Name" SortKeySelector="item => item.Name">
+                @context.Name
+            </GridColumn>
+            <GridColumn TItem="ProductDto" HeaderText="Breed" PropertyName="CategoryName" SortKeySelector="item => item.CategoryName" Filterable="false">
+                @context.CategoryName
+            </GridColumn>
+            <GridColumn TItem="ProductDto" HeaderText="Description" PropertyName="Description" SortKeySelector="item => item.Description" Filterable="false">
+                @context.Description.Substring(0, context.Description.Length > 25 ? 25 : context.Description.Length)
+            </GridColumn>
+            <GridColumn TItem="ProductDto" HeaderText="Sex" PropertyName="Sex" SortKeySelector="item => item.Sex" Filterable="false">
+                @context.Sex
+            </GridColumn>
+            <GridColumn TItem="ProductDto" HeaderText="Price" PropertyName="Price" SortKeySelector="item => item.Price" Filterable="false">
+                @context.Price.ToString("N2")
+            </GridColumn>
+            <GridColumn TItem="ProductDto" HeaderText="Stock" PropertyName="Stock" SortKeySelector="item => item.StockAvailable" Filterable="false">
+                @context.StockAvailable
+            </GridColumn>
+            <GridColumn TItem="ProductDto" HeaderText="Active" PropertyName="Status" Filterable="false" Sortable="true" SortKeySelector="item => item.Status">
+                @CalcStatusBool(@context.Status)
+            </GridColumn>
+        </Grid>
+    </div>
+</div>

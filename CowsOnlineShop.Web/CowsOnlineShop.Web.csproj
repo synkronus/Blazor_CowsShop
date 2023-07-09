@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'CowsOnlineShop.Web' ">
+    <ExternalConsole>true</ExternalConsole>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Blazored.LocalStorage" Version="4.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.1" PrivateAssets="all" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+        <PackageReference Include="Blazor.Bootstrap" Version="1.9.4" />
+        <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\Images\Holstein\" />
+    <Content Remove="wwwroot\Images\Hereford\" />
+    <Content Remove="wwwroot\Images\Aberdeen\" />
+    <Content Remove="wwwroot\Images\Belgian\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\Images\Holstein\" />
+    <Folder Include="wwwroot\Images\Hereford\" />
+    <Folder Include="wwwroot\Images\Aberdeen\" />
+    <Folder Include="wwwroot\Images\Belgian\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CowsOnlineShop.Models\CowsOnlineShop.Models.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

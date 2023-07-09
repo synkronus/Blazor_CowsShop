@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "tjSZk80N9GZvASXWeqGo1OG/Tq7WusZQHhCWz2RWFCM=",
+  "Source": "CowsOnlineShop.Api",
+  "BasePath": "_content/CowsOnlineShop.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

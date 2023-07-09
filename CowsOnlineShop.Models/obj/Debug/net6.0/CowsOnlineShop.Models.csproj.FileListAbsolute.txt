@@ -1,0 +1,12 @@
+/Users/user/Desktop/Projects/Job_Applications/ShopStocks/ShopOnlineSolution/CowsOnlineShop.Models/bin/Debug/net6.0/CowsOnlineShop.Models.deps.json
+/Users/user/Desktop/Projects/Job_Applications/ShopStocks/ShopOnlineSolution/CowsOnlineShop.Models/bin/Debug/net6.0/CowsOnlineShop.Models.dll
+/Users/user/Desktop/Projects/Job_Applications/ShopStocks/ShopOnlineSolution/CowsOnlineShop.Models/bin/Debug/net6.0/CowsOnlineShop.Models.pdb
+/Users/user/Desktop/Projects/Job_Applications/ShopStocks/ShopOnlineSolution/CowsOnlineShop.Models/obj/Debug/net6.0/CowsOnlineShop.Models.csproj.AssemblyReference.cache
+/Users/user/Desktop/Projects/Job_Applications/ShopStocks/ShopOnlineSolution/CowsOnlineShop.Models/obj/Debug/net6.0/CowsOnlineShop.Models.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/Desktop/Projects/Job_Applications/ShopStocks/ShopOnlineSolution/CowsOnlineShop.Models/obj/Debug/net6.0/CowsOnlineShop.Models.AssemblyInfoInputs.cache
+/Users/user/Desktop/Projects/Job_Applications/ShopStocks/ShopOnlineSolution/CowsOnlineShop.Models/obj/Debug/net6.0/CowsOnlineShop.Models.AssemblyInfo.cs
+/Users/user/Desktop/Projects/Job_Applications/ShopStocks/ShopOnlineSolution/CowsOnlineShop.Models/obj/Debug/net6.0/CowsOnlineShop.Models.csproj.CoreCompileInputs.cache
+/Users/user/Desktop/Projects/Job_Applications/ShopStocks/ShopOnlineSolution/CowsOnlineShop.Models/obj/Debug/net6.0/CowsOnlineShop.Models.dll
+/Users/user/Desktop/Projects/Job_Applications/ShopStocks/ShopOnlineSolution/CowsOnlineShop.Models/obj/Debug/net6.0/refint/CowsOnlineShop.Models.dll
+/Users/user/Desktop/Projects/Job_Applications/ShopStocks/ShopOnlineSolution/CowsOnlineShop.Models/obj/Debug/net6.0/CowsOnlineShop.Models.pdb
+/Users/user/Desktop/Projects/Job_Applications/ShopStocks/ShopOnlineSolution/CowsOnlineShop.Models/obj/Debug/net6.0/ref/CowsOnlineShop.Models.dll

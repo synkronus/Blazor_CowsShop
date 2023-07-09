@@ -1,0 +1,29 @@
+
+a[b-h9ovfpu4d2] {
+    text-decoration: none;
+}
+
+a:hover .card[b-h9ovfpu4d2] {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card[b-h9ovfpu4d2] {
+    transition: box-shadow 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+a:hover img[b-h9ovfpu4d2] {
+    transform: scale(1.07);
+    transition: 0.5s ease-in-out;
+}
+
+img[b-h9ovfpu4d2] {
+    transition: 0.5s ease-in-out;
+    height: 200px !important;
+}
+
+
+.stl-text[b-h9ovfpu4d2] {
+    color: darkslategray !important;
+}

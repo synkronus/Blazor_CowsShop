@@ -1,0 +1,88 @@
+﻿
+@inherits ProductAdminForm;
+
+<style>
+    .valid.modified:not([type=checkbox]) {
+        outline: 1px solid #26b050;
+    }
+
+    .invalid {
+        outline: 1px solid red;
+    }
+
+    .validation-message {
+        color: red;
+    }
+</style>
+
+
+<section class="employee-edit">
+    <EditForm Model="@ItemLocal" OnValidSubmit="@SaveItem">
+        <DataAnnotationsValidator />
+        <div class="row mb-2">
+            <div class="visually-hidden">
+                <label for="name" class="form-label">Image Ulr</label>
+                <InputText id="name" class="form-control" @bind-Value="@ItemLocal.ImageURL" />
+            </div>
+            <div class="col col-4">
+                <label for="name" class="form-label">Name</label>
+                <InputText id="name" class="form-control" @bind-Value="@ItemLocal.Name" />
+                <ValidationMessage class="form-control" For="@(() => ItemLocal.Name)" />
+            </div>
+            <div class="col col-8">
+                <label for="description" class="form-label">Description</label>
+                <InputText id="description" class="form-control" @bind-Value="@ItemLocal.Description" />
+                <ValidationMessage class="form-control" For="@(() => ItemLocal.Description)" />
+            </div>
+        </div>
+        <div class="row mb-2">
+            <div class="col col-4">
+                <label for="breed" class="form-label">Breed</label>
+                <InputSelect id="breed" class="form-control" @bind-Value="@ItemLocal.BreedCategoryId">
+                    <option value="1" selected>Holstein</option>
+                    <option value="2">Hereford</option>
+                    <option value="3">Aberdeen</option>
+                    <option value="4">Belgian</option>
+                </InputSelect>
+            </div>
+            <div class="col col-4">                
+                <label for="sex" class="form-label">Sex</label>
+                <InputSelect id="sex" class="form-control" @bind-Value=@ItemLocal.Sex>
+                    <option value="@(SexGender.Male)" selected>Male</option>
+                    <option value="@(SexGender.Female)">Female</option>
+                </InputSelect>
+            </div>
+            <div class="col col-4">
+                <label for="birthDay" class="form-label">BirthDay</label>
+                <InputDate id="birthDay" class="form-control" @bind-Value="@ItemLocal.BirthDate" ></InputDate>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col col-4">
+                <label for="price" class="form-label">Price</label>
+                <InputNumber TValue="decimal" id="price" class="form-control" Placeholder="0.00" Min="0" @bind-Value="@ItemLocal.Price" />
+            </div>
+            <div class="col col-4">
+                <label for="stock" class="form-label">Stock Available</label>
+                <InputNumber TValue="int" id="stock" class="form-control" Placeholder="0" Min="0" Max="100" @bind-Value="@ItemLocal.StockAvailable" />
+            </div>
+            <div class="col col-4">
+                <br />
+                <label class="form-check-label" for="status">IsActive</label>
+                <br />
+                <InputCheckbox class="form-check-input"  id="status" @bind-Value="@ItemLocal.Status"></InputCheckbox>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col col-9">
+            </div>
+            <div class="col col-3">
+                @*<Button type="submit" @ref="saveButton" Color="ButtonColor.Primary" @onclick="async () => await SaveItem()">Submit</Button>*@
+                <button type="submit" class="btn btn-primary edit-btn">Save employee</button>
+
+            </div>
+        </div>
+    </EditForm>
+</section>
+
+

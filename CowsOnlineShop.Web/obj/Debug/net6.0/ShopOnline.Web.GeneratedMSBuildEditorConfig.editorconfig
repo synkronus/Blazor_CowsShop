@@ -1,0 +1,93 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = CowsOnlineShop.Web
+build_property.RootNamespace = CowsOnlineShop.Web
+build_property.ProjectDir = /Users/user/Desktop/Projects/Job_Applications/ShopStocks/ShopOnlineSolution/CowsOnlineShop.Web/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/user/Desktop/Projects/Job_Applications/ShopStocks/ShopOnlineSolution/CowsOnlineShop.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/user/Desktop/Projects/Job_Applications/ShopStocks/ShopOnlineSolution/CowsOnlineShop.Web/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/user/Desktop/Projects/Job_Applications/ShopStocks/ShopOnlineSolution/CowsOnlineShop.Web/Pages/Checkout.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2hlY2tvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/user/Desktop/Projects/Job_Applications/ShopStocks/ShopOnlineSolution/CowsOnlineShop.Web/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/user/Desktop/Projects/Job_Applications/ShopStocks/ShopOnlineSolution/CowsOnlineShop.Web/Pages/DisplayError.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGlzcGxheUVycm9yLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/user/Desktop/Projects/Job_Applications/ShopStocks/ShopOnlineSolution/CowsOnlineShop.Web/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/user/Desktop/Projects/Job_Applications/ShopStocks/ShopOnlineSolution/CowsOnlineShop.Web/Pages/ProductAdmin.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVjdEFkbWluLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/user/Desktop/Projects/Job_Applications/ShopStocks/ShopOnlineSolution/CowsOnlineShop.Web/Pages/ProductAdminForms.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVjdEFkbWluRm9ybXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/user/Desktop/Projects/Job_Applications/ShopStocks/ShopOnlineSolution/CowsOnlineShop.Web/Pages/ProductDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVjdERldGFpbHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/user/Desktop/Projects/Job_Applications/ShopStocks/ShopOnlineSolution/CowsOnlineShop.Web/Pages/Products.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVjdHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/user/Desktop/Projects/Job_Applications/ShopStocks/ShopOnlineSolution/CowsOnlineShop.Web/Pages/ProductsByCategory.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVjdHNCeUNhdGVnb3J5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/user/Desktop/Projects/Job_Applications/ShopStocks/ShopOnlineSolution/CowsOnlineShop.Web/Shared/CartMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NhcnRNZW51LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/user/Desktop/Projects/Job_Applications/ShopStocks/ShopOnlineSolution/CowsOnlineShop.Web/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1N1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/user/Desktop/Projects/Job_Applications/ShopStocks/ShopOnlineSolution/CowsOnlineShop.Web/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/user/Desktop/Projects/Job_Applications/ShopStocks/ShopOnlineSolution/CowsOnlineShop.Web/Pages/DisplayProducts.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGlzcGxheVByb2R1Y3RzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-4gq5bd70tk
+
+[/Users/user/Desktop/Projects/Job_Applications/ShopStocks/ShopOnlineSolution/CowsOnlineShop.Web/Pages/DisplaySpinner.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGlzcGxheVNwaW5uZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-tbbgkiw99b
+
+[/Users/user/Desktop/Projects/Job_Applications/ShopStocks/ShopOnlineSolution/CowsOnlineShop.Web/Pages/ShoppingCart.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hvcHBpbmdDYXJ0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-9qio32rw30
+
+[/Users/user/Desktop/Projects/Job_Applications/ShopStocks/ShopOnlineSolution/CowsOnlineShop.Web/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-q8i7l5485m
+
+[/Users/user/Desktop/Projects/Job_Applications/ShopStocks/ShopOnlineSolution/CowsOnlineShop.Web/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-744zq9ogdq
+
+[/Users/user/Desktop/Projects/Job_Applications/ShopStocks/ShopOnlineSolution/CowsOnlineShop.Web/Shared/ProductCategoriesNavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1Byb2R1Y3RDYXRlZ29yaWVzTmF2TWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-boeigzvklc

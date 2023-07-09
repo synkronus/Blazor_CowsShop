@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "CowsOnlineShop.Web": {
+      "commandName": "Project",
+      "applicationUrl": "https://localhost:5001",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true
+    }
+  }
+}
