@@ -13,23 +13,27 @@
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.Workbench ActiveDocument="CowsOnlineShop.Api/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CowsOnlineShop.Web/Properties/launchSettings.json">
     <Files>
       <File FileName="CowsOnlineShop.Web/Services/ManageProductsLclStrgSvc.cs" />
       <File FileName="CowsOnlineShop.Web/Pages/ProductAdminBase.cs" />
       <File FileName="CowsOnlineShop.Web/Pages/ShoppingCartBase.cs" />
       <File FileName="CowsOnlineShop.Web/Program.cs" />
       <File FileName="CowsOnlineShop.Api/Properties/launchSettings.json" Line="12" Column="4" />
-      <File FileName="CowsOnlineShop.Api/Program.cs" Line="20" Column="2" />
+      <File FileName="CowsOnlineShop.Api/Program.cs" Line="8" Column="1" />
       <File FileName="CowsOnlineShop.Web/Properties/launchSettings.json" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CowsOnlineShop" expanded="True">
-            <Node name="CowsOnlineShop.Models" expanded="True" />
-            <Node name="CowsOnlineShop.Web" selected="True">
+            <Node name="CowsOnlineShop.Api" expanded="True">
               <Node name="Properties" expanded="True" />
+            </Node>
+            <Node name="CowsOnlineShop.Web" expanded="True">
+              <Node name="Properties" expanded="True">
+                <Node name="launchSettings.json" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>

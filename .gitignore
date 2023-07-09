@@ -508,5 +508,12 @@ msbuild.log
 msbuild.err
 msbuild.wrn
 
-# Visual Studio 2015
-.vs/
+# VSCode
+.vs
+
+CowsOnlineShop.Api/bin/
+CowsOnlineShop.Api/obj/
+CowsOnlineShop.Models/bin/
+CowsOnlineShop.Models/obj/
+CowsOnlineShop.Web/bin/
+CowsOnlineShop.Web/obj/
