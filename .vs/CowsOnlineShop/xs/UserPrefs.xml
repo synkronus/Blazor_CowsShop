@@ -1,10 +1,35 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="Multiple Projects">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+﻿<Properties StartupConfiguration="Multiple Projects" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.ItemProperties.CowsOnlineShop.Web PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <AuthorInfo Name="JG" Email="javierg89@gmail.com" Copyright="Synkronus Engineering" Company="Synkronus" Trademark="" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <Debugger.DebugSourceFolders />
-  <AuthorInfo Name="JG" Email="javierg89@gmail.com" Copyright="Synkronus Engineering" Company="Synkronus" Trademark="" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.CowsOnlineShop.Api PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CowsOnlineShop.Api/Program.cs">
+    <Files>
+      <File FileName="CowsOnlineShop.Web/Services/ManageProductsLclStrgSvc.cs" />
+      <File FileName="CowsOnlineShop.Web/Pages/ProductAdminBase.cs" />
+      <File FileName="CowsOnlineShop.Web/Pages/ShoppingCartBase.cs" />
+      <File FileName="CowsOnlineShop.Web/Program.cs" Line="1" Column="1" />
+      <File FileName="CowsOnlineShop.Api/Properties/launchSettings.json" Line="13" Column="2" />
+      <File FileName="CowsOnlineShop.Api/Program.cs" Line="37" Column="1" />
+      <File FileName="CowsOnlineShop.Web/Properties/launchSettings.json" Line="12" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CowsOnlineShop" expanded="True" selected="True">
+            <Node name="CowsOnlineShop.Api" expanded="True">
+              <Node name="Properties" expanded="True" />
+            </Node>
+            <Node name="CowsOnlineShop.Web" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
       <Items>
@@ -13,34 +38,5 @@
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.Workbench ActiveDocument="CowsOnlineShop.Web/Properties/launchSettings.json">
-    <Files>
-      <File FileName="CowsOnlineShop.Web/Services/ManageProductsLclStrgSvc.cs" />
-      <File FileName="CowsOnlineShop.Web/Pages/ProductAdminBase.cs" />
-      <File FileName="CowsOnlineShop.Web/Pages/ShoppingCartBase.cs" />
-      <File FileName="CowsOnlineShop.Web/Program.cs" />
-      <File FileName="CowsOnlineShop.Api/Properties/launchSettings.json" Line="12" Column="4" />
-      <File FileName="CowsOnlineShop.Api/Program.cs" Line="8" Column="1" />
-      <File FileName="CowsOnlineShop.Web/Properties/launchSettings.json" Line="1" Column="1" />
-    </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="CowsOnlineShop" expanded="True">
-            <Node name="CowsOnlineShop.Api" expanded="True">
-              <Node name="Properties" expanded="True" />
-            </Node>
-            <Node name="CowsOnlineShop.Web" expanded="True">
-              <Node name="Properties" expanded="True">
-                <Node name="launchSettings.json" selected="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
-  </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.CowsOnlineShop.Api PreferredExecutionTarget="/Applications/Brave Browser.app" />
-  <MonoDevelop.Ide.ItemProperties.CowsOnlineShop.Web PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <Debugger.DebugSourceFolders />
 </Properties>
